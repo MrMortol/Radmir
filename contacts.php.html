@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты и обратная связь - YouTube RolePlay</title>
+  <meta name="description" content="YouTube RolePlay - игровой SA:MP сервер, один из крупнейших проектов в SAMP Android.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="http://youtube-rp.space/favicon.ico" sizes="16x16">
+  <meta name="csrf-token" content="KePR6v9Sg4yM1bTkXZ6yCTfcz2R0UksoTOuKGdsW">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://youtube-rp.space/assets\css\fonts.css">
+  <link rel="stylesheet" href="http://youtube-rp.space/assets\css\app.css">
+  <style>
+  input.error {
+    border-color: rgba(233, 96, 119, 0.37) !important;
+  }
+  .errors {
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    color: #ff3535;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #g-recaptcha div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+    </head>
+
+<body>
+    <!-- Rating@Mail.ru counter -->
+  <script type="text/javascript">
+  var _tmr = window._tmr || (window._tmr = []);
+  _tmr.push({id: "3085915", type: "pageView", start: (new Date()).getTime()});
+  (function (d, w, id) {
+    if (d.getElementById(id)) return;
+    var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+    ts.src = "https://top-fwz1.mail.ru/js/code.js";
+    var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+    if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+  })(document, window, "topmailru-code");
+  </script><noscript><div>
+  <img src="https://top-fwz1.mail.ru/counter?id=3085915;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru">
+  </div></noscript>
+  <!-- //Rating@Mail.ru counter -->
+
+  <main class="container">
+    <div class="row">
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <a class="navbar-brand logo" href="index.php.html">
+      <strong class="first">YouTube</strong>
+      <strong class="second">Project</strong>
+    </a>
+    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="true" aria-label="Меню">
+      <span class="navbar-toggler-bar bar1"></span>
+      <span class="navbar-toggler-bar bar2"></span>
+      <span class="navbar-toggler-bar bar3"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navigation">
+      <ul class="navbar-nav mr-auto font-medium font-14 l-spacing-130">
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="index.php.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contacts.php.html#" target="_blank" rel="noopener">Форум</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="contacts.php.html#">Донат</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contacts.php.html#start">Начать игру</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://vk.com/youtuberp_project" target="_blank" rel="noopener">
+            <i class="fab fa-vk"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<style>
+  @import  url('https://fonts.googleapis.com/css?family=Dancing+Script|Righteous');
+  .logo .first {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: white;
+  }
+  .logo .second {
+    margin-top: 40px;
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    color: darkred;
+    text-shadow:
+      -1px -1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+    font-weight: bold;
+    margin-left: -55px;
+  }
+</style>
+    <div class="row">
+  <div class="col col-xl-12 offset-xl-0 col-lg-6 offset-lg-3">
+    <div class="row">
+      <div class="form-bg w-100 mx-auto">
+        <div class="col col-8 offset-2">
+          <div class="row">
+            <form id="contact-form" novalidate="" class="mt-5 mx-auto">
+              <input type="hidden" name="_token" value="KePR6v9Sg4yM1bTkXZ6yCTfcz2R0UksoTOuKGdsW">              <div class="errors"></div>
+              <h2 class="form-title font-bold text-center w-100 mt-5 pt-5">Контакты и обратная связь</h2>
+              <p class="font-light text-white mt-3">
+                <strong>Мы
+                  <a class="text-white" href="https://vk.com/youtuberp_project" target="_blank" rel="noopener">
+                    <i class="fab fa-vk"></i> ВКонтакте
+                  </a>
+                </strong>
+              </p>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer row text-center">
+  <div class="logo">
+    <a href="https://vk.com/youtuberp_project" target="_blank" rel="noopener">
+      <img src="http://youtube-rp.space/assets\images\footer-img-1.png" alt="VK">
+    </a>
+  </div>
+  <div class="mt-2 col col-12">
+    <a href="http://youtube-rp.space/contacts" class="text-secondary font-light font-14">Контакты и обратная связь</a>
+  </div>
+  <div class="copyright col col-12 font-medium font-14 text-white">
+    <a href="https://vk.com/youtuberp_project" target="_blank" rel="noopener">Права защищены &copy YouTube RolePlay &copy; 2020</a>
+  </div>
+</div>
+
+<style>
+.footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer .logo {
+  margin: 0 auto;
+}
+.footer .logo a img {
+  opacity: 0.45;
+  transition: 0.5s;
+}
+.footer .logo a:hover img {
+  opacity: 1;
+}
+.footer .copyright {
+  padding-top: 15px;
+}
+.footer .copyright a {
+  color: #FFF;
+}
+</style>
+<link rel="manifest" href="manifest.json">
+
+<script src="OneSignalSDK.js"></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "7efc9d2e-8416-4f44-86c9-a50e19e0565c",
+    });
+  });
+</script>
+<script>
+console.log('%cАСТАНАВИСЬ! ✋', 'font-size: 72px; font-weight: 900;');
+console.log(
+  '%cТы открыл окно, которое необходимо лишь разработчикам.\nВставляя что-то сюда ты позволяешь негодяям заполучить доступ к твоему аккаунту, так что не ведись - будь умничкой!',
+  'font-size: 18px; font-weight: 700;'
+);
+console.log(
+  '%cP.S> Если ты великий разраб, смело пиши мне сюда: coffee.dorrian@gmail.com (хорошая ЗП и отличная команда)',
+  'font-family: "Verdana"; font-style: italic; font-size: 14px; font-weight: 400;'
+);
+</script>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
+  <script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+  </script>
+
+<script type="text/javascript">
+$(function() {
+
+  var verifyRecaptcha = 0;
+
+  var $input_account = $('input[name="account"]');
+  var $input_sum = $('input[name="sum"]');
+
+  $input_account.val(localStorage.getItem('donate.account'))
+  $input_sum.val(localStorage.getItem('donate.sum'))
+
+  $('#submit-button').click(function() {
+    /*if(!verifyRecaptcha){
+      alert('Вы не прошли проверку на робота.');
+      return 1;
+    }*/
+    var check_input_forms = 0;
+    if (!$input_sum.val().length){
+      $input_sum.addClass('error');
+      check_input_forms++;
+    }
+    if (!$input_account.val().length){
+      $input_account.addClass('error');
+      check_input_forms++;
+    }
+    else {
+      var name = $input_account.val();
+      $.ajax({
+        url: '/donate/check',
+        method: 'POST',
+        data: {
+          "name" : name
+        },
+      }).done(function(data) {
+        $(".errors").html("");
+        localStorage.setItem('donate.account', '');
+        if (data.name) {
+          if (data.online) $(".errors").html("<b>Выйдите с сервера</b>");
+        } else {
+          $(".errors").html("<b>Игрока с ником «"+ name +"» нет в системе</b>");
+        }
+
+        var errors = $(".errors").html().length;
+        if (!check_input_forms && !errors) {
+          localStorage.setItem('donate.account', $input_account.val());
+          $('#contact-form').attr('action', '/payments');
+          $('#contact-form').submit();
+        }
+        else check_input_forms = 0;
+
+      });
+    }
+    return 1;
+  });
+
+  $input_account.on('input', function() {
+    if ($(this).val().length) $(this).removeClass('error');
+    localStorage.setItem('donate.account', $(this).val());
+  });
+
+  $input_sum.on('input', function() {
+    this.value = this.value.replace(/[^0-9]/g, '')
+    if ($(this).val().length) $(this).removeClass('error');
+    localStorage.setItem('donate.sum', $(this).val());
+  });
+
+  /*
+  var verifyCallback = function(response) {
+    verifyRecaptcha = 1;
+  };
+  var onloadCallback = function() {
+    grecaptcha.render('g-recaptcha', {
+      'sitekey' : '6LcSuYUUAAAAAGrjRy-yZpogf4xWUfxSI66bn6KN', // ТУТ ТВОЙ sitekey
+      'callback' : verifyCallback
+    });
+  };
+  */
+});
+</script>
+</body>
+
+</html>

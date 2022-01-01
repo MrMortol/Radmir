@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пополнить игровой счет - YouTube RolePlay</title>
+    <meta name="viewport" content="width=1400px, initial-scale=1.0">
+    <link rel="stylesheet" href="css/maksa988.css">
+</head>
+<body>
+<div id="content">
+    <div class="donate-page" id = "random">
+        <div class="container">
+            <form action="http://youtube-rp.space/donate.php">
+				<input name="action" value="fk_go" class="main_input" type="hidden">
+                <input type="text" name = "account" required type = "text" class="donate-name" placeholder="Ваш игровой никнейм">
+                <input type="text" name = "sum" required type = "text" class="donate-sum" placeholder="Сумма пополнения">
+                <input type="submit" class="donate-btn">
+            </form>
+            <div class="donate-info">
+                <p>После пополнения счета, зайдите в игру и введите /donaterub</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+         var random= Math.floor(Math.random() * 3);
+  var bigSize = ["url('images/donate-bg-one.png')",
+                 "url('images/donate-bg-one.png')",
+                 "url('images/donate-bg-one.png')"];
+  document.getElementById("random").style.backgroundImage=bigSize[random];
+    </script>
+
+   <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter42793134 = new Ya.Metrika({
+                    id:42793134,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/42793134" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
